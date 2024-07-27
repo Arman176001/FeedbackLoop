@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "highrise";
+    font-family: "highriseConsensed";
     src: url("../public/fonts/HighriseFont-Condensed-Demo.otf");
   }
+@font-face {
+    font-family: "highriseBold";
+    src: url("../public/fonts/HighriseFont-Bold-Demo.otf");
+  }
+  @font-face {
+    font-family: "highrise";
+    src: url("../public/fonts/HighriseFont-Demo-Regular.otf");
+  }  

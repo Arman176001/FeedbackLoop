@@ -9,7 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily:{
-        highrise: ["highrise","sans-serif"]
+        highrise: ["highrise","sans-serif"],
+        highriseBold: ["highriseBold","sans-serif"],
+        highriseConsensed: ["highriseConsensed","sans-serif"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

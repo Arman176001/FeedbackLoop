@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "highrise";
+    src: url("../public/fonts/HighriseFont-Condensed-Demo.otf");
+  }

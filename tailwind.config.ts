@@ -1,4 +1,7 @@
+
 import type { Config } from "tailwindcss";
+
+
 
 const config: Config = {
   content: [
@@ -19,7 +22,10 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    fontFamily:{
+      num: ["Playfair_Display","sans-serif"]
+    },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar-hide')],
 };
 export default config;
